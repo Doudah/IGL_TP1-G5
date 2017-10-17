@@ -1,5 +1,5 @@
-
-/** devlopped by : Doudah** /
+/** modifier par hocin pour la deuxieme fois**/
+/** modifier par hocin pour la premiere fois**/
 	public class Exception_diff_taille extends Exception {
 	    /**
 		 * 
