@@ -1,4 +1,4 @@
-
+﻿
  * <b>la classe VectorHelper offre des methodes pour le traitement de donnée d'un tableaux </b>
  * <ul>
  *     <li>Le trie</li>
@@ -11,6 +11,30 @@
 
  */
 public class VectorHelper {
+
+
+public static void tri_bulles(int[] vector)
+{
+	int temp=0;
+    int tab_en_ordre = 0;
+    int taille = vector.length;
+    while(tab_en_ordre!=1)
+    {
+        tab_en_ordre = 1;
+        for(int i=0 ; i < taille-1 ; i++)
+        {
+            if(vector[i] > vector[i+1])
+            {
+            	temp=vector[i];
+            	vector[i]=vector[i+1];
+            	vector[i+1]=temp;		
+                tab_en_ordre = 0;
+            }
+        }
+        taille--;
+    }
+}
+
 
     /**
      * <p>trie les elements d'un tableaux par ordre croissante .</p>

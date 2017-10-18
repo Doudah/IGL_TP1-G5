@@ -8,5 +8,10 @@
 		public Exception_diff_taille (){
 	        super("les deux tableaux sont de taille different ");
 	    }
+
+                public Exception_diff_taille2 (){
+	        super("les deux vecteur ne sont pas meme taille ");
+	    }
+
 	}
 
